@@ -93,7 +93,7 @@ namespace CardGames.GameLogic
 				_deck.Shuffle ();		// Return the cards and shuffle
 
 				FlipNextCard ();		// Flip the first card...
-				gameTimer.Start(); 
+				_gameTimer.Start(); 
 			}
 		}
 			
